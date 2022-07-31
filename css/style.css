@@ -118,3 +118,33 @@
     margin-bottom: 25px;
     text-transform: capitalize;
 }
+
+.about .main .about-text h5 span{
+    color: #f9004d;
+}
+
+.about .main .about-text p{
+    color:#fcfc;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 13px 13px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    color: #f9004d;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #f9004d;
+}
