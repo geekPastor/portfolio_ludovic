@@ -39,3 +39,82 @@
     display: inline-block;
     padding: 10px 25px;
 }
+
+.hero nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hero nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.hero .content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.hero .content h1{
+    color: #000;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.hero .content h1 span{
+    color: #f9004d;
+}
+
+.hero .content h3{
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.hero .content h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background: #191919;
+}
+
+.about .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .main img{ 
+    height: auto;
+    width: 430px;
+}
+
+.about .main .about-text{
+    width: 550px;
+}
+
+.about .main .about-text h2{
+    color: #000;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about .main .about-text h5{
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
