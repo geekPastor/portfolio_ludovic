@@ -8,7 +8,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    /* background-image: ; */
+    background-image: url(./img/background.jpg); 
     background-size: cover;
     background-position: center;
 }
@@ -219,4 +219,88 @@ button:hover{
     background: transparent;
     cursor: pointer;
     border: 2px solid #f9004d;
+}
+
+.contact{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact .button-two{
+    background: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 13px 13px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contact .button-two:hover{
+    color: #f9004d;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #f9004d;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: #fff;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+footer .socials{
+    display: flex;
+}
+
+footer .socials a{
+    width: 45px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .socials a:hover{
+    background: transparent;
+    color: #f9004d;
+    transition: .4s;
 }
