@@ -8,9 +8,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(./img/background.jpg); 
-    background-size: cover;
-    background-position: center;
+    background: #101010;
 }
 
 .hero nav{
@@ -53,9 +51,10 @@
 }
 
 .hero .content{
+    text-align: center;
     position: absolute;
     top: 50%;
-    left: 8%;
+    left: 30%;
     transform: translateY(-50%);
 }
 
@@ -97,6 +96,7 @@
 
 .about .main img{ 
     height: auto;
+    border-radius: 50px;
     width: 430px;
 }
 
@@ -250,7 +250,7 @@ button:hover{
 }
 
 .contact .button-two:hover{
-    color: #f9004d;
+    /* color: #f9004d; */
     background: transparent;
     cursor: pointer;
     border: 2px solid #f9004d;
